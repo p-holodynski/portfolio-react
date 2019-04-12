@@ -17,26 +17,25 @@
 }
 
 .avatar-img{
-    height: 250px;
+    margin-top: 10%;
+    height: 150px;
     padding-top: 5em;
 }
 
 .banner-text{
-    background-color: black;
-    opacity: .8;
-    width: 75%;
+    opacity: 1;
+    width: 50%;
     margin: auto;
-    border-radius: 10px;
 }
 
 .banner-text h1 {
-    font-size: 66px;
+    font-size: 30px;
     font-weight: bold;
     color:white;
 }
 
 .banner-text hr {
-    border-top: 5px dotted white;
+    border-top: 3px solid white;
     width: 50%;
     margin: auto;
 }
@@ -44,7 +43,7 @@
 .banner-text p{
     color: white;
     font-size: 20px;
-    padding: 1em;
+    padding-top: 0.5em;
 }
 
 .social-links{
@@ -56,8 +55,7 @@
 
 .social-links i{
     color:white;
-    font-size: 5em;
-    padding: 8px;
+    font-size: 3em;
 }
 
 .project-grid{
