@@ -19,17 +19,17 @@ class LandingPage extends Component {
                         <p>HTML | CSS | Bootstrap | JavaScript | React</p>
                         <div className="social-links">
                             {/* LinkedIn */}
-                            <a href="http://google.com" targer="blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/patryk-holodynski/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin" aria-hidden="true" />
                             </a>
                             
                             {/* GitHub */}
-                            <a href="http://google.com" targer="blank" rel="noopener noreferrer">
+                            <a href="https://github.com/p-holodynski" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github-square" aria-hidden="true" />
                             </a>
 
                             {/* FreeCodeCamp */}
-                            <a href="http://google.com" targer="blank" rel="noopener noreferrer">
+                            <a href="https://www.freecodecamp.org/p-holodynski" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-free-code-camp" aria-hidden="true" />
                             </a>
                         </div>
