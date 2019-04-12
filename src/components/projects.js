@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardActions, CardTitle, Button, CardMenu, IconButton, CardText} from 'react-mdl';
+import {Tabs, Tab, Grid, Cell, Card, CardActions, CardTitle, Button, CardText} from 'react-mdl';
 
 class Project extends Component {
     constructor(props){
@@ -19,7 +19,8 @@ class Project extends Component {
                         This is the FreeCodeCamp Quote Generator project using React
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <Button colored><a href="https://github.com/p-holodynski/fcc-quote-generator-react" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+                        <Button colored><a href="https://fcc-quote-generator-react.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a></Button>
                     </CardActions>
                     
                 </Card>
@@ -36,7 +37,7 @@ class Project extends Component {
                         This is the FreeCodeCamp Simon Game project using Angular
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <Button colored><a href="https://codepen.io/phjoker/full/Qdmevj/" target="_blank" rel="noopener noreferrer">CodePen</a></Button>
                     </CardActions>
                     
                 </Card>
@@ -45,17 +46,15 @@ class Project extends Component {
                     <CardTitle style={{color: '#fff', height:'176px', background: 'url(https://cms-assets.tutsplus.com/uploads/users/1251/posts/30113/preview_image/angular-logo.jpg) center / cover'}}>
                         Wikipedia API
                     </CardTitle>
-                    <CardText style={{fontSize: '10px', fontStyle: 'bold'}}>
+                    <CardText>
                         This is the FreeCodeCamp Wikipedia API project using Angular
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <Button colored><a href="https://codepen.io/phjoker/full/ggvgNN/" target="_blank" rel="noopener noreferrer">CodePen</a></Button>
                     </CardActions>
                     
                 </Card>
             </div>
-
-            
             )
         }
     }
